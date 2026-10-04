@@ -1,0 +1,12 @@
+sdk.dir=/path/to/android-sdk
+# Public site key from https://dashboard.reown.com (WalletConnect). Without it wallets cannot connect.
+orbz.wcProjectId=
+# Debug builds only: where the console runs. The emulator reaches your machine through `adb reverse tcp:3181 tcp:3181`.
+orbz.apiBase=http://localhost:3181
+# Release signing (optional). Keep the keystore outside the repo.
+orbz.keystore=
+orbz.keystorePassword=
+orbz.keyAlias=orbz
+orbz.keyPassword=
+# Emulator flow test: a throwaway key whose wallet has credit on the local console.
+orbz.testPk=
